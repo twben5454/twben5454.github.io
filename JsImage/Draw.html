@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />  
+<title>DrawRectangle</title>  
+  
+<style type="text/css">  
+<!--  
+body {  
+margin-top: 0px;  
+margin-left: 0px;  
+}  
+div {  
+	margin:0;  
+	padding:0;  
+}  
+.innerbg {  
+	background:#ff0000;  
+	filter:Alpha(Opacity=40, FinishOpacity=90, Style=0, StartX=0, StartY=0, FinishX=100, FinishY=100);  
+	width:100%;  
+	height:100%;  
+}
+ 
+div.imgmasker {
+	position: absolute;
+	z-index: 1;
+	cursor: pointer;
+	border:1px solid red;
+	background:#000000;
+	opacity: 1;
+}
+-->  
+</style>  
+<script language="javascript" type="text/javascript" src="arkjs/lang.js"></script>
+<script language="javascript" type="text/javascript" src="App.js"></script>  
+<script>  
+window.onload = function() {  
+    new DrawRectangle('bigimg', function(div){  
+        //alert(div.outerHTML);  
+    });  
+}
+</script>  
+</head>  
+<body>  
+	<img src="test.jpg" name="bigimg" border="0" id="bigimg" style="margin-left:0px;margin-top:0px;border:1px solid #ccc;"/>
+</body>  
+</html>
