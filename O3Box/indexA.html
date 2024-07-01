@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <title>大岞</title>
+    <style>
+        .profile-card-2 {
+    max-width: 350px;
+    max-height: 350px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary fixed-top ">
+        <a class="navbar-brand" href="#">大岞</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-right">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">首頁 </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">活氧瓶</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">連絡我們</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/2021-09-19+09_26_52.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/2021-09-19+09_27_32.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/2021-09-19+09_28_00.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+        </a>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/寵物消毒除臭.jpg" >
+                    <div class="profile-name">寵物消毒除臭</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <hr>
+                <div class="profile-card-2"><img src="images/香港腳.jpg"   width="350" height="370" class="img img-responsive">
+                    <div class="profile-name">香港腳皮膚病消毒</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/碗具清潔.jpg"  width="350" height="370" class="img img-responsive">
+                    <div class="profile-name">餐具消毒</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/新生嬰兒.jpg" width="350" height="370" class="img img-responsive">
+                    <div class="profile-name">嬰兒用品玩具消毒</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/假牙消毒.jpg"  width="350" height="370" class="img img-responsive">
+                    <div class="profile-name">假牙消毒</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/環境消毒.jpg"  width="350" height="370" class="img img-responsive">
+                    <div class="profile-name">環境消毒除臭</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/魚肉.jpg" width="350" height="370" class="img img-responsive">
+                    <div class="profile-name">魚肉保鮮</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/蔬果.jpg" width="350" height="370" class="img img-responsive">
+                    <div class="profile-name">蔬果清潔保鮮</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/傷口清創.jpg"  width="350" height="370" class="img img-responsive">
+                    <div class="profile-name">傷口清創</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/皮件發霉.jpg"   width="350" height="370" class="img img-responsive">
+                    <div class="profile-name">皮件除霉</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/婦女.jpg"  width="350" height="370"  class="img img-responsive">
+                    <div class="profile-name">婦女私處保養</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/廚房清洗.jpg"  width="350" height="370" class="img img-responsive">
+                    <div class="profile-name">廚房油膩清潔</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/車內除臭.jpg"  width="350" height="370" class="img img-responsive">
+                    <div class="profile-name">車內空間消毒</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/衣物.jpeg"  width="350" height="370" class="img img-responsive">
+                    <div class="profile-name">衣物殺菌除臭</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/冰箱.jpg"  width="350" height="370"  class="img img-responsive">
+                    <div class="profile-name">冰箱除臭</div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <hr>
+                <div class="profile-card-2"><img src="images/嗽口水.jpg"  width="350" height="370"  class="img img-responsive">
+                    <div class="profile-name">預防蛀牙,取代嗽口水</div>
+                </div>
+            </div>
+      </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <h2>電解臭氧原理</h2>
+                <hr class="line line-hr-left">
+                <h5>We would love to meet up and chat about how we can make your dream wedding happen!</h5>
+                <p>Wedding elit miss eget the solin missen citudino sellus rutrum in lacus son nemi vestibulum eleifen ornare drana company tortor semper at. Suspendise asin the sedisem tinciu the drana numune consue.</p>
+                <p>Destination elit miss eget the solin miss citudino phasellus rutrum in lacus miss. Vestibulum eleifen ornare drana sempe numune consue.</p>
+                <p>Event elit miss eget the solin miss citudino phasellus rutrum in the lacusi events vestibulum eleifen ornare drana company tortori sempe numune consue design elit miss eget the solin miss citudino sellus rutrum in lacus miss vestibulum eleifen ornare drana company tortor semper at.</p>
+            </div>
+            <div class="col-md-8">
+                <div class="about-img">
+                    <div class="img">
+                        <img src="images/電解臭氧.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
